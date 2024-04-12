@@ -28,7 +28,7 @@
 <',',','>
 <'quantidade',IDENT>
 <')',')'>
-<'enquanto',IDENT>
+<'enquanto','enquanto'>
 <'preco',IDENT>
 <'<>','<>'>
 <'0',NUM_INT>
@@ -36,7 +36,7 @@
 <'quantidade',IDENT>
 <'<>','<>'>
 <'0',NUM_INT>
-<'faca',IDENT>
+<'faca','faca'>
 <'numeroItens',IDENT>
 <'<-','<-'>
 <'numeroItens',IDENT>
@@ -60,18 +60,18 @@
 <',',','>
 <'quantidade',IDENT>
 <')',')'>
-<'fim_enquanto',IDENT>
+<'fim_enquanto','fim_enquanto'>
 <'escreva','escreva'>
 <'(','('>
 <'"Valor total: R$"',CADEIA>
 <',',','>
 <'valorTotal',IDENT>
 <')',')'>
-<'se',IDENT>
+<'se','se'>
 <'numeroItens',IDENT>
 <'=','='>
 <'0',NUM_INT>
-<'entao',IDENT>
+<'entao','entao'>
 <'escreva','escreva'>
 <'(','('>
 <'"Nao eh possivel calcular o preco medio unitario"',CADEIA>
@@ -89,5 +89,5 @@
 <'/','/'>
 <'numeroItens',IDENT>
 <')',')'>
-<'fim_se',IDENT>
+<'fim_se','fim_se'>
 <'fim_algoritmo','fim_algoritmo'>

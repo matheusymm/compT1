@@ -19,7 +19,7 @@
 <',',','>
 <'lado3',IDENT>
 <')',')'>
-<'se',IDENT>
+<'se','se'>
 <'lado1',IDENT>
 <'>=','>='>
 <'lado2',IDENT>
@@ -37,13 +37,13 @@
 <'lado1',IDENT>
 <'+','+'>
 <'lado2',IDENT>
-<'entao',IDENT>
+<'entao','entao'>
 <'escreva','escreva'>
 <'(','('>
 <'"Os lados fornecidos nao formam um triangulo"',CADEIA>
 <')',')'>
 <'senao','senao'>
-<'se',IDENT>
+<'se','se'>
 <'lado1',IDENT>
 <'=','='>
 <'lado2',IDENT>
@@ -51,12 +51,12 @@
 <'lado2',IDENT>
 <'=','='>
 <'lado3',IDENT>
-<'entao',IDENT>
+<'entao','entao'>
 <'classificacao',IDENT>
 <'<-','<-'>
 <'"Equilatero"',CADEIA>
 <'senao','senao'>
-<'se',IDENT>
+<'se','se'>
 <'lado1',IDENT>
 <'=','='>
 <'lado2',IDENT>
@@ -68,7 +68,7 @@
 <'lado2',IDENT>
 <'=','='>
 <'lado3',IDENT>
-<'entao',IDENT>
+<'entao','entao'>
 <'classificacao',IDENT>
 <'<-','<-'>
 <'"Isosceles"',CADEIA>
@@ -76,11 +76,11 @@
 <'classificacao',IDENT>
 <'<-','<-'>
 <'"Escaleno"',CADEIA>
-<'fim_se',IDENT>
-<'fim_se',IDENT>
+<'fim_se','fim_se'>
+<'fim_se','fim_se'>
 <'escreva','escreva'>
 <'(','('>
 <'classificacao',IDENT>
 <')',')'>
-<'fim_se',IDENT>
+<'fim_se','fim_se'>
 <'fim_algoritmo','fim_algoritmo'>

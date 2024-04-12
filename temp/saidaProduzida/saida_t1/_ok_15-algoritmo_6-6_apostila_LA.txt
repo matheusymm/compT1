@@ -17,8 +17,9 @@
 <'real','real'>
 <'precoMaior',IDENT>
 <'<-','<-'>
-<'-1',NUM_INT>
-<'faca',IDENT>
+<'-','-'>
+<'1',NUM_INT>
+<'faca','faca'>
 <'leia','leia'>
 <'(','('>
 <'nome',IDENT>
@@ -27,7 +28,7 @@
 <',',','>
 <'tipoVinho',IDENT>
 <')',')'>
-<'se',IDENT>
+<'se','se'>
 <'preco',IDENT>
 <'>','>'>
 <'precoMaior',IDENT>
@@ -35,7 +36,7 @@
 <'nome',IDENT>
 <'<>','<>'>
 <'"fim"',CADEIA>
-<'entao',IDENT>
+<'entao','entao'>
 <'nomeMaior',IDENT>
 <'<-','<-'>
 <'nome',IDENT>
@@ -45,19 +46,20 @@
 <'tipoMaior',IDENT>
 <'<-','<-'>
 <'tipoVinho',IDENT>
-<'fim_se',IDENT>
-<'ate',IDENT>
+<'fim_se','fim_se'>
+<'ate','ate'>
 <'nome',IDENT>
 <'=','='>
 <'"fim"',CADEIA>
-<'se',IDENT>
+<'se','se'>
 <'precoMaior',IDENT>
 <'=','='>
 <'(','('>
 <'0',NUM_INT>
-<'-1',NUM_INT>
+<'-','-'>
+<'1',NUM_INT>
 <')',')'>
-<'entao',IDENT>
+<'entao','entao'>
 <'escreva','escreva'>
 <'(','('>
 <'"Nenhum vinho foi apresentado."',CADEIA>
@@ -71,5 +73,5 @@
 <',',','>
 <'tipoMaior',IDENT>
 <')',')'>
-<'fim_se',IDENT>
+<'fim_se','fim_se'>
 <'fim_algoritmo','fim_algoritmo'>

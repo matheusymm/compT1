@@ -26,12 +26,12 @@
 <'(','('>
 <'media',IDENT>
 <')',')'>
-<'se',IDENT>
+<'se','se'>
 <'media',IDENT>
 <'>','>'>
 <'=','='>
 <'6',NUM_INT>
-<'entao',IDENT>
+<'entao','entao'>
 <'escreva','escreva'>
 <'(','('>
 <'"Aprovado :)..."',CADEIA>
@@ -41,5 +41,5 @@
 <'(','('>
 <'"Reprovado :(..."',CADEIA>
 <')',')'>
-<'fim_se',IDENT>
+<'fim_se','fim_se'>
 <'fim_algoritmo','fim_algoritmo'>
