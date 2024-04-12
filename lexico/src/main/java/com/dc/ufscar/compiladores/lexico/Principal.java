@@ -14,18 +14,40 @@ public class Principal {
             Jander lex = new Jander(cs);
             Token t = null;
             PrintWriter pw = new PrintWriter(arquivoSaida);
+            String tempName;
+
             while ((t = lex.nextToken()).getType() != Token.EOF) {
             //    System.out.println("<" + Jander.VOCABULARY.getDisplayName(t.getType()) + "," + t.getText() + ">");
-                if(Jander.VOCABULARY.getDisplayName(t.getType()) == "PONTUACAO" || Jander.VOCABULARY.getDisplayName(t.getType()) == "OP_REL" || Jander.VOCABULARY.getDisplayName(t.getType()) == "OP_ARIT" || Jander.VOCABULARY.getDisplayName(t.getType()) == "OP_LOGICO"){
+                tempName = Jander.VOCABULARY.getDisplayName(t.getType());
+                if(tempName.equals("ERRO")){
+                    pw.println("Linha "+ t.getLine()+": " + t.getText() + " - simbolo nao identificado" );
+                    break;
+                }
+                else if(tempName.equals("COMENTARIO_NAO_FECHADO")){
+                    pw.println("Linha "+ t.getLine()+": comentario nao fechado");
+                    break;
+                }
+                else if(tempName.equals("CADEIA_NAO_FECHADA")){
+                    pw.println("Linha "+ t.getLine()+": cadeia literal nao fechada");
+                    break;
+                }
+                else if(
+                    tempName.equals("PONTUACAO")  ||
+                    tempName.equals("OP_REL" )    || 
+                    tempName.equals("OP_ARIT" )   || 
+                    tempName.equals("OP_LOGICO") 
+                    )
+                    {
                     System.out.println("<" + '\'' + t.getText() + '\'' + ',' + '\'' + t.getText() + '\'' + ">");
                     pw.println("<" + '\'' + t.getText() + '\'' + ',' + '\'' + t.getText() + '\'' + ">");
                 }   
                 else{
-                    System.out.println("<" + '\'' + t.getText() + '\'' + ',' + Jander.VOCABULARY.getDisplayName(t.getType()) + ">");
-                    pw.println("<" + '\'' + t.getText() + '\'' + ',' + Jander.VOCABULARY.getDisplayName(t.getType()) + ">");
+                    System.out.println("<" + '\'' + t.getText() + '\'' + ',' + tempName + ">");
+                    pw.println("<" + '\'' + t.getText() + '\'' + ',' + tempName + ">");
 
                 }
-            }   
+            }
+
             pw.close();
         } catch (IOException ex) {
         }
