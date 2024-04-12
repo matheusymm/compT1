@@ -46,7 +46,7 @@ IDENT : ('a'..'z'|'A'..'Z'|'_') ('a'..'z'|'A'..'Z'|'0'..'9'|'_')*
 	 ;  
 PONTUACAO	: ',' | '..' | '<-' | '^' | '&' | '.'
 	;
-CADEIA 	: '"' ( ESC_SEQ | ~('\''|'\\'|'"') )* '"'
+CADEIA 	: '"' ( ESC_SEQ | ~('\n'|'\''|'\\'|'"') )* '"'
 	;
 
 fragment
@@ -74,3 +74,9 @@ ABRECHAVE : '['
 	;
 FECHACHAVE : ']'
 	;
+
+COMENTARIO_NAO_FECHADO:   '{' ~('}'|'\n')* '\n' 
+    ;
+CADEIA_NAO_FECHADA: '"' ( ESC_SEQ | ~('\n'|'\''|'\\'|'"') )* '\n'
+	;
+ERRO: .;
