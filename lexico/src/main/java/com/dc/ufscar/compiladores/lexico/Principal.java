@@ -17,7 +17,7 @@ public class Principal {
             String tempName;
 
             while ((t = lex.nextToken()).getType() != Token.EOF) {
-            //    System.out.println("<" + Jander.VOCABULARY.getDisplayName(t.getType()) + "," + t.getText() + ">");
+                // System.out.println("<" + Jander.VOCABULARY.getDisplayName(t.getType()) + "," + t.getText() + ">");
                 tempName = Jander.VOCABULARY.getDisplayName(t.getType());
                 if(tempName.equals("ERRO")){
                     pw.println("Linha "+ t.getLine()+": " + t.getText() + " - simbolo nao identificado" );
@@ -38,11 +38,11 @@ public class Principal {
                     tempName.equals("OP_LOGICO") 
                     )
                     {
-                    System.out.println("<" + '\'' + t.getText() + '\'' + ',' + '\'' + t.getText() + '\'' + ">");
+                    // System.out.println("<" + '\'' + t.getText() + '\'' + ',' + '\'' + t.getText() + '\'' + ">");
                     pw.println("<" + '\'' + t.getText() + '\'' + ',' + '\'' + t.getText() + '\'' + ">");
                 }   
                 else{
-                    System.out.println("<" + '\'' + t.getText() + '\'' + ',' + tempName + ">");
+                    // System.out.println("<" + '\'' + t.getText() + '\'' + ',' + tempName + ">");
                     pw.println("<" + '\'' + t.getText() + '\'' + ',' + tempName + ">");
 
                 }
