@@ -36,7 +36,6 @@ public class Jander extends Lexer {
 	};
 
 	private static String[] makeRuleNames() {
-		//nomes das regras dos operadores da linguagem
 		return new String[] {
 			"ALGORITMO", "DECLARE", "LITERAL", "INTEIRO", "REAL", "LOGICO", "LEIA", 
 			"ESCREVA", "SE", "FIM_SE", "ENTAO", "CASO", "SEJA", "SENAO", "FIM_CASO", 
@@ -52,7 +51,6 @@ public class Jander extends Lexer {
 	public static final String[] ruleNames = makeRuleNames();
 
 	private static String[] makeLiteralNames() {
-		//nomes literais dos operadores da linguagem
 		return new String[] {
 			null, "'algoritmo'", "'declare'", "'literal'", "'inteiro'", "'real'", 
 			"'logico'", "'leia'", "'escreva'", "'se'", "'fim_se'", "'entao'", "'caso'", 
@@ -66,7 +64,6 @@ public class Jander extends Lexer {
 	}
 	private static final String[] _LITERAL_NAMES = makeLiteralNames();
 	private static String[] makeSymbolicNames() {
-		//nomes simbolicos dos operadores da linguagem
 		return new String[] {
 			null, "ALGORITMO", "DECLARE", "LITERAL", "INTEIRO", "REAL", "LOGICO", 
 			"LEIA", "ESCREVA", "SE", "FIM_SE", "ENTAO", "CASO", "SEJA", "SENAO", 
