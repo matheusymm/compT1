@@ -14,6 +14,6 @@ java -jar /home/matheusymm/compiladores-corretor-automatico-1.0-SNAPSHOT-jar-wit
 
 - Executar manualmente:
 ``` Shell
-# java -jar CaminhoJarWirhDependencies caminhoEntrada 
-java -jar ./target/lexico-1.0-SNAPSHOT-jar-with-dependencies.jar ~/1.casos_teste_t1/entrada/1-algoritmo_2-3_apostila_LA.txt
+# java -jar CaminhoJarWirhDependencies caminhoEntrada caminhoSaida 
+java -jar ./target/lexico-1.0-SNAPSHOT-jar-with-dependencies.jar ~/1.casos_teste_t1/entrada/1-algoritmo_2-3_apostila_LA.txt ~/1.casos_teste_t1/saida/1-algortimo_2-3_apostila_LA.txt
 ```

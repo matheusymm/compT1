@@ -1,47 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.dc.ufscar.compiladores.lexico.AppTest" time="0.055" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.dc.ufscar.compiladores.lexico.AppTest" time="0.023" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/matheusymm/compT1/lexico/target/test-classes:/home/matheusymm/compT1/lexico/target/classes:/home/matheusymm/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/matheusymm/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/matheusymm/.m2/repository/org/antlr/antlr4/4.11.1/antlr4-4.11.1-complete.jar:/home/matheusymm/.m2/repository/org/antlr/antlr4-runtime/4.11.1/antlr4-runtime-4.11.1.jar:/home/matheusymm/.m2/repository/org/antlr/antlr-runtime/3.5.3/antlr-runtime-3.5.3.jar:/home/matheusymm/.m2/repository/org/antlr/ST4/4.3.4/ST4-4.3.4.jar:/home/matheusymm/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar:/home/matheusymm/.m2/repository/org/glassfish/javax.json/1.1.4/javax.json-1.1.4.jar:/home/matheusymm/.m2/repository/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar:"/>
+    <property name="java.class.path" value="/home/that/Documentos/PERFIL5/COMP/compT1/lexico/target/test-classes:/home/that/Documentos/PERFIL5/COMP/compT1/lexico/target/classes:/home/that/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/that/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/that/.m2/repository/org/antlr/antlr4/4.11.1/antlr4-4.11.1-complete.jar:/home/that/.m2/repository/org/antlr/antlr4-runtime/4.11.1/antlr4-runtime-4.11.1.jar:/home/that/.m2/repository/org/antlr/antlr-runtime/3.5.3/antlr-runtime-3.5.3.jar:/home/that/.m2/repository/org/antlr/ST4/4.3.4/ST4-4.3.4.jar:/home/that/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar:/home/that/.m2/repository/org/glassfish/javax.json/1.1.4/javax.json-1.1.4.jar:/home/that/.m2/repository/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
+    <property name="swing.aatext" value="true"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="os.name" value="Linux"/>
     <property name="java.vm.specification.version" value="22"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="US"/>
+    <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-22-oracle-x64/lib"/>
-    <property name="sun.java.command" value="/home/matheusymm/compT1/lexico/target/surefire/surefirebooter18249420518123704873.jar /home/matheusymm/compT1/lexico/target/surefire 2024-04-13T10-15-19_948-jvmRun1 surefire11894097719356781612tmp surefire_01934153486645657769tmp"/>
+    <property name="sun.java.command" value="/home/that/Documentos/PERFIL5/COMP/compT1/lexico/target/surefire/surefirebooter3794365113390992681.jar /home/that/Documentos/PERFIL5/COMP/compT1/lexico/target/surefire 2024-04-26T08-59-42_126-jvmRun1 surefire13396164075497563931tmp surefire_06634545696403085198tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/matheusymm/compT1/lexico/target/test-classes:/home/matheusymm/compT1/lexico/target/classes:/home/matheusymm/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/matheusymm/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/matheusymm/.m2/repository/org/antlr/antlr4/4.11.1/antlr4-4.11.1-complete.jar:/home/matheusymm/.m2/repository/org/antlr/antlr4-runtime/4.11.1/antlr4-runtime-4.11.1.jar:/home/matheusymm/.m2/repository/org/antlr/antlr-runtime/3.5.3/antlr-runtime-3.5.3.jar:/home/matheusymm/.m2/repository/org/antlr/ST4/4.3.4/ST4-4.3.4.jar:/home/matheusymm/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar:/home/matheusymm/.m2/repository/org/glassfish/javax.json/1.1.4/javax.json-1.1.4.jar:/home/matheusymm/.m2/repository/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar:"/>
+    <property name="surefire.test.class.path" value="/home/that/Documentos/PERFIL5/COMP/compT1/lexico/target/test-classes:/home/that/Documentos/PERFIL5/COMP/compT1/lexico/target/classes:/home/that/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/that/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/that/.m2/repository/org/antlr/antlr4/4.11.1/antlr4-4.11.1-complete.jar:/home/that/.m2/repository/org/antlr/antlr4-runtime/4.11.1/antlr4-runtime-4.11.1.jar:/home/that/.m2/repository/org/antlr/antlr-runtime/3.5.3/antlr-runtime-3.5.3.jar:/home/that/.m2/repository/org/antlr/ST4/4.3.4/ST4-4.3.4.jar:/home/that/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar:/home/that/.m2/repository/org/glassfish/javax.json/1.1.4/javax.json-1.1.4.jar:/home/that/.m2/repository/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/home/matheusymm"/>
-    <property name="user.language" value="en"/>
+    <property name="user.home" value="/home/that"/>
+    <property name="user.language" value="pt"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2024-03-19"/>
     <property name="java.home" value="/usr/lib/jvm/jdk-22-oracle-x64"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/home/matheusymm/compT1/lexico"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="basedir" value="/home/that/Documentos/PERFIL5/COMP/compT1/lexico"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/matheusymm/compT1/lexico/target/surefire/surefirebooter18249420518123704873.jar"/>
+    <property name="surefire.real.class.path" value="/home/that/Documentos/PERFIL5/COMP/compT1/lexico/target/surefire/surefirebooter3794365113390992681.jar"/>
+    <property name="awt.useSystemAAFontSettings" value="on"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22+36-2370"/>
-    <property name="user.name" value="matheusymm"/>
+    <property name="user.name" value="that"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="6.8.0-76060800daily20240311-generic"/>
+    <property name="os.version" value="6.6.9-amd64"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="/home/matheusymm/.m2/repository"/>
+    <property name="localRepository" value="/home/that/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="22"/>
-    <property name="user.dir" value="/home/matheusymm/compT1/lexico"/>
+    <property name="user.dir" value="/home/that/Documentos/PERFIL5/COMP/compT1/lexico"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -53,5 +55,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.dc.ufscar.compiladores.lexico.AppTest" time="0"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.dc.ufscar.compiladores.lexico.AppTest" time="0.003"/>
 </testsuite>

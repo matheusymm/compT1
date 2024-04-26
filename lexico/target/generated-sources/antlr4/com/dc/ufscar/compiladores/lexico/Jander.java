@@ -16,7 +16,6 @@ public class Jander extends Lexer {
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
 		new PredictionContextCache();
-		// operadores da linguagem Jander
 	public static final int
 		ALGORITMO=1, DECLARE=2, LITERAL=3, INTEIRO=4, REAL=5, LOGICO=6, LEIA=7, 
 		ESCREVA=8, SE=9, FIM_SE=10, ENTAO=11, CASO=12, SEJA=13, SENAO=14, FIM_CASO=15, 
